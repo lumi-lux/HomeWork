@@ -1,9 +1,8 @@
 package HomeWork8
 
-data class Food (
-	override val name: String,
-	override val price: Double,
+class Food (
+	val name: String,
+	val price: Double,
 	) : Product {
 	override fun getFinalPrice(): Double = price
-	override fun getName(): String = name
 }

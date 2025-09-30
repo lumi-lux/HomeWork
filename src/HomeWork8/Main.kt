@@ -8,6 +8,6 @@ fun main() {
 	)
 	products.forEach {
 		product ->
-		println("${product.getName()}: ${product.getFinalPrice()}")
+		println("${product.getFinalPrice()}")
 	}
 }
